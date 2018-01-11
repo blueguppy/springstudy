@@ -1,9 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<<<<<<< HEAD
 <%@ page session="false" pageEncoding="UTF-8" %>
-=======
-<%@ page session="false" %>
->>>>>>> refs/remotes/origin/master
+
 <html>
 <head>
 	<title>Home</title>

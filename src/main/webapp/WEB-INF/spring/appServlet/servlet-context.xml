@@ -20,12 +20,7 @@
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
-	
-<<<<<<< HEAD
 	<context:component-scan base-package="peekaf.springprogramming.chap01" />
-=======
-	<context:component-scan base-package="peekaf.java.springstudy" />
->>>>>>> refs/remotes/origin/master
 	
 	
 	
