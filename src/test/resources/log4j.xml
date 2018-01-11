@@ -11,7 +11,11 @@
 	</appender>
 	
 	<!-- Application Loggers -->
+<<<<<<< HEAD
 	<logger name="peekaf.springprogramming.chap01">
+=======
+	<logger name="peekaf.java.springstudy">
+>>>>>>> refs/remotes/origin/master
 		<level value="info" />
 	</logger>
 	
