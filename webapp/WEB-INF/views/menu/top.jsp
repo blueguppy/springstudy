@@ -7,12 +7,9 @@
 </head>
 <body>
 <h1> 
-	한글
+	Top 페이지임
 </h1>
-<h1> 
-	한글2
-</h1>
-한글 한글
+
 
 <P>  The time on the server is ${serverTime}. </P>
 </body>
