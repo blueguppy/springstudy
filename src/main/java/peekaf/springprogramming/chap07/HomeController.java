@@ -1,4 +1,4 @@
-package peekaf.java.springstudy;
+package peekaf.springprogramming.chap07;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -34,7 +34,6 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
-		
 	}
 	
 }
