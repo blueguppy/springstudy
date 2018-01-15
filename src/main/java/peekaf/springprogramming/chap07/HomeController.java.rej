@@ -1,9 +1,0 @@
-diff a/src/main/java/peekaf/springprogramming/chap07/HomeController.java b/src/main/java/peekaf/springprogramming/chap07/HomeController.java	(rejected hunks)
-@@ -36,6 +36,7 @@
- 		return "home";
- 	}
- 
-+	@RequestMapping(value = "/top", method = RequestMethod.GET)
- 	public String top(Locale locale, Model model) {
- 		logger.info("Welcome home! The client locale is {}.", locale);
- 		
