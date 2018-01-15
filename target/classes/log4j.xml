@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="peekaf.springprogramming.chap01">
+	<logger name="peekaf.work.springstudy">
 		<level value="info" />
 	</logger>
 	
