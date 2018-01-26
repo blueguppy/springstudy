@@ -1,4 +1,4 @@
-package peekaf.work.springstudy;
+package peekaf.work.springstudy.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
