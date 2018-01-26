@@ -1,4 +1,4 @@
-package peekaf.work.springstudytest;
+package peekaf.work.springstudytest.chap04;
 
 import java.sql.Connection;
 
