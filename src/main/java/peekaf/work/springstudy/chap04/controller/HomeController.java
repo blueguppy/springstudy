@@ -1,4 +1,4 @@
-package peekaf.java.springstudy;
+package peekaf.work.springstudy.chap04.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -22,9 +22,9 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/chap04", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+		logger.info("Welcome home! the client locale is "+ locale.toString());
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
@@ -33,8 +33,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "home";
-		
+		return "chap04/home";
 	}
 	
 }
