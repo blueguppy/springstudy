@@ -1,4 +1,4 @@
-package peekaf.work.springstudytest.chap04;
+package peekaf.work.springstudy.chap04;
 
 import java.sql.Connection;
 
@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"file://webapp/WEB-INF/spinrg/**/root-context.xml"})
+@ContextConfiguration(locations={"file:webapp/WEB-INF/spring/**/root-context.xml"})
 public class DataSourceTest {
 	
 	@Inject
