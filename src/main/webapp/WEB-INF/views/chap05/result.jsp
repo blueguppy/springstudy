@@ -6,14 +6,8 @@
 	<title>Home</title>
 </head>
 <body>
-<h1> 
-	한글
-</h1>
-<h1> 
-	한글2
-</h1>
-한글 한글
 
-<P>  The time on the server is ${serverTime}. </P>
+	<span>Hello ${msg}</span>
+
 </body>
 </html>
